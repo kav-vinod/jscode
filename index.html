@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Amanda cancelled noodle night<h1>
+    <h1>Amanda is scared of watchdog<h1>
+    <h1>Amanda is tired<h1>
+    <!-- best practice - put script element at the end of the body
+        1. Browser parses file from top to bottom; if browser is busy parsing and executing JS code, web page will be slow to load = bad user experience
+        2. In case some elements the script element uses needs to talk to other elements, by putting SE at end we can be sure that those elements exist 
+    -->
+    <script
+        src="index.js">
+        //above line means source code is in index.js 
+        //js goes in script
+        //HTML - content (how page looks like)
+        //JS - behavior (ex. what happens when your mouse hovers over a button? Does sth pop up?)
+    </script>
+</body>
+</html>
